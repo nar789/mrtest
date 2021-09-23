@@ -12,6 +12,10 @@
 				res.render('chat.html',{});
 			});
 
+			app.get('/shop',function(req,res){
+				res.render('shopping.html',{});
+			});
+
 			//1. enetry point
 			app.listen(9924,function(){
 			  preLoad();
